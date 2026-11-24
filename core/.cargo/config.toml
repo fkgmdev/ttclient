@@ -1,0 +1,9 @@
+# Cross-link settings for Android JNI builds. The NDK path is local to this
+# workspace; tools/build-android-core.sh sets ANDROID_NDK_HOME before building.
+[target.aarch64-linux-android]
+linker = "/home/yamana/Projects/tiktok/sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android24-clang"
+ar = "/home/yamana/Projects/tiktok/sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar"
+
+[target.x86_64-linux-android]
+linker = "/home/yamana/Projects/tiktok/sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android24-clang"
+ar = "/home/yamana/Projects/tiktok/sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar"

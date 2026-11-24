@@ -1,0 +1,23 @@
+# Local Android SDK / NDK install (large, machine-specific)
+/sdk/
+
+# Machine-specific paths
+local.properties
+android/local.properties
+
+# Gradle / Kotlin build caches and outputs
+.gradle/
+.kotlin/
+build/
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+
+# Rust build output
+core/target/
+
+# IDE / OS
+.idea/
+*.iml
+.DS_Store
